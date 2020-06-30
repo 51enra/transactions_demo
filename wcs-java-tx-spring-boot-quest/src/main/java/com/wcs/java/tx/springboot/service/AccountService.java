@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.wcs.java.tx.springboot.entities.BankAccount;
 import com.wcs.java.tx.springboot.repo.BankAccountRepo;
+import com.wcs.java.tx.springboot.repo.TransferLogEntryRepository;
 
 @Service
 public class AccountService {
 
-	private BankAccountRepo repo;
+	private BankAccountRepo repo;		
 
 	@Autowired
 	public AccountService(BankAccountRepo repo) {

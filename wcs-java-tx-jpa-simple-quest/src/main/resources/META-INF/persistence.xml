@@ -15,10 +15,10 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/my_stuff?useSSL=false&amp;serverTimezone=CET" />
 
             <!-- The database username -->
-            <property name="javax.persistence.jdbc.user" value="my_stuff" />
+            <property name="javax.persistence.jdbc.user" value="my_stuff_user" />
 
             <!-- The database password -->
-            <property name="javax.persistence.jdbc.password" value="my_stuff" />
+            <property name="javax.persistence.jdbc.password" value="my_$tuff_PWD1" />
             
         </properties>
     </persistence-unit>

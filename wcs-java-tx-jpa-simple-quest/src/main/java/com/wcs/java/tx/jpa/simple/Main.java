@@ -14,6 +14,9 @@ public class Main {
 		EntityManager em = emf.createEntityManager();
 		
 		EntityTransaction tx = em.getTransaction();
+		
+		SetupUtil.tearDown();
+		SetupUtil.setup();
 
 		tx.begin();
 		BankAccount toAccount = (BankAccount) em.createQuery("FROM BankAccount b where b.user = 'andre'")

@@ -10,7 +10,7 @@ public class SetupUtil {
 	
 	public static Connection openConnection() throws SQLException {
 		Connection con = DriverManager
-				.getConnection("jdbc:mysql://my_stuff:my_stuff@localhost:3306/my_stuff?serverTimezone=CET");
+				.getConnection("jdbc:mysql://my_stuff_user:my_$tuff_PWD1@localhost:3306/my_stuff?serverTimezone=CET");
 		return con;
 	}
 	

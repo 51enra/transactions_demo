@@ -18,8 +18,12 @@ Solutions:
 
 Transactions mit JDBC 
 https://www.youtube.com/watch?v=JSNOdf3TEmk
+
+
 Transactions mit JPA
 https://www.youtube.com/watch?v=8XVzcM61yZ0
+
+
 Transactions mit Spring
 https://www.youtube.com/watch?v=eHTvX4inIWA
 
